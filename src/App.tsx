@@ -541,7 +541,7 @@ export default function ReainoEbmPapstDemo() {
     const conf = (base: number) => Math.round(lerp(base, 100, phase3));
 
     setKpis((prevKpis) =>
-      prevKpis.map((k, i) => {
+      prevKpis.map((k) => {
         let value: number | null = null;
         let confidence = 0;
 

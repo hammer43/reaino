@@ -1,1 +1,7 @@
 
+runtime: static
+publish: dist
+excludes: []
+bootstrap:
+  - command: npm ci
+  - command: npm run build
